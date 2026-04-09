@@ -43,7 +43,7 @@ function callRPC(method, params, id = 1) {
 
 (async () => {
     try {
-        const result = await callRPC("Arith.Multiple", { A: 17, B: 8 });
+        const result = await callRPC("Arith.Multiply", { A: 17, B: 8 });
         console.log("Multiply Result:", result);
 
         const division = await callRPC("Arith.Divide", { A: 17, B: 8 });

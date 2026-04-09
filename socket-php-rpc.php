@@ -49,7 +49,7 @@ function callRPC($method, $params, $id = 1)
 
 
 try {
-    $result = callRPC("Arith.Multiple", ["A" => 17, "B" => 8]);
+    $result = callRPC("Arith.Multiply", ["A" => 17, "B" => 8]);
     echo "Multiply Result: " . $result . PHP_EOL;
 
     $division = callRPC("Arith.Divide", ["A" => 17, "B" => 8]);

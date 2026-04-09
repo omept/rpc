@@ -36,7 +36,7 @@ function callRPC($method, $params, $id = 1)
 
 
 try {
-    echo "Multiply: " . callRPC("Arith.Multiple", ["A" => 6, "B" => 3]) . PHP_EOL;
+    echo "Multiply: " . callRPC("Arith.Multiply", ["A" => 6, "B" => 3]) . PHP_EOL;
 
     print_r(callRPC("Arith.Divide", ["A" => 10, "B" => 3]));
 } catch (Exception $e) {

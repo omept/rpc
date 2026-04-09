@@ -30,7 +30,7 @@ func main() {
 	// synchronous call
 	args := Args{A: 17, B: 8}
 	var reply int
-	err = client.Call("Arith.Multiple", args, &reply)
+	err = client.Call("Arith.Multiply", args, &reply)
 	utils.CheckFatalError(err)
 	log.Printf("Arith: %d*%d=%d", args.A, args.B, reply)
 
