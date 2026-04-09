@@ -12,7 +12,7 @@ It covers:
 
 📖 **Blog Post:**  
 Read the full explanation here:  
-👉 https://your-blog-link-here.com
+👉 [https://omept-tech.medium.com/go-server-go-js-or-php-clients-rpc-made-simple-87ddd904fb4e](https://omept-tech.medium.com/go-server-go-js-or-php-clients-rpc-made-simple-87ddd904fb4e)
 
 ---
 
